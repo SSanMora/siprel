@@ -21,3 +21,24 @@
 /index.php
 # Ignore temp directory.
 /typo3temp/
+
+# Dependencias de Node.js
+node_modules/
+**/node_modules/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Archivos generados
+dist/
+coverage/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
